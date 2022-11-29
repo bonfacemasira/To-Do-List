@@ -12,3 +12,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.Form {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 30%;
+  height: 50%;
+  position: absolute;
+  right: 10px; bottom: 10px;
+}
+
+.NewItem {
+  
+}
