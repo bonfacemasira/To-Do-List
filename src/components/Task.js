@@ -9,7 +9,6 @@ function Task({ task, onUpdateTask, onDeleteTask }) {
       .then(() => onDeleteTask(task));
   }
 
-  console.log(task)
   function handleEditTask() {
     // fetch(`http://localhost:3001/tasks/${task.id}`, {
     //   method: "PATCH",

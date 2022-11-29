@@ -31,12 +31,11 @@ function TaskList() {
     setTasks(updatedTasks);
   }
 
-  console.log(tasks)
-
   return (
     <div className="TaskList">
+      <h3>Today</h3>
       <TaskForm onAddTask={handleAddTask} />
-      <ul className="Taks">
+      <ul className="Tasks">
         {tasks.map((task) => (
           <Task
             key={task.id}

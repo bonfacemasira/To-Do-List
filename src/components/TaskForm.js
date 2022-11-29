@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function TaskForm({ onAddTask }) {
   const [name, setName] = useState("");
-  const [category, setCategory] = useState([]);
+  const [category, setCategory] = useState("Morning");
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -24,7 +24,6 @@ function TaskForm({ onAddTask }) {
 
   return (
     <div className="Form">
-      <h3>Today</h3>
       <form className="NewItem" onSubmit={handleSubmit}>
         <input
           type="text"
@@ -33,6 +32,14 @@ function TaskForm({ onAddTask }) {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+        <select
+          name="category"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
+        >
+          <option value="Morning">Morning</option>
+          <option value="Evening">Evening</option>
+        </select>
         <button type="submit" onClick={handleSubmit}>
           Add to List
         </button>
