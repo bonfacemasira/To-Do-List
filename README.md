@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# To Do List
+## By Bonface Masira
+## Screenshots
+ ![image](./assets/images/screenshot.JPG)
+ ![image](./assets/images/screenshot_sort_desc.png)
+ ![image](./assets/images/screenshot_dropdown.png)
+ ![image](./assets/images/screenshot_search.JPG)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ## Table of Content
+ - [Description](#description)
+ - [Features](#features)
+ - [Behaviour Driven Development](#Behaviour-Driven-Development)
+ - [Requirements](#requirements)
+ - [Installation Process](#installation-Process)
+ - [Live Link](#Live-Link)
+ - [Technology  Used](#technology-Used)
+ - [Authors Info](#Authors-Info)
 
-## Available Scripts
+ ## Description
 
-In the project directory, you can run:
+ <p>The MovieHub Project will allow users to view ratings and comments on existing movies. It will also allow users to comment on movies besides rating them by liking on favorite movies.</p>
 
-### `npm start`
+## Features
+As a user of the application, you will be able to :
+1. View movieas and shows on different pages
+2. Search movies
+3. Sort movies by rating descending
+4. Sort movies by release date descending
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Behaviour Driven Development|
+| Behaviour      | Input        | Output       |
+| :------------- | :----------: | -----------: |
+|  Enter your name  |   Bonface Masira |     |
+| Enter your Email Address  | bonfacemasira@gmail.com |   |
+| Enter your message or comment   |  I would like to inquire about something     |     |
+| Press Submit|     |Pop up "Bonface Masira , we have received your message. Thank you for reaching out to us.|
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ ###  Requirements
+ * Access to  a computer or any other garget
+ * Access to internet
 
-### `npm test`
+ ### Installation Process
+ ****
+* Clone to this repo : git clone https://github.com/bonfacemasira/To-Do-List
+* Unzip the downloaded files in a folder of choice.
+* Open the index file from the zipped file with any browser.
+ ****
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Live Link
+- Click this link to view the live application https://bonfacemasira.github.io/MovieHub/
 
-### `npm run build`
+### Technology  Used
+* HTML - which was used to develope the structure of the web application
+* CSS - which was used to style the web pages
+* JavaScript - which was used for adding functionality to the web page elements.
+* React JS- is the framework which was used to create the components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Known Bugs
+* Sort by date is not working as expected
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors Info
+LinkedIn - [Bonface Masira](https://www.linkedin.com/in/bonface-masira-975447a4)
