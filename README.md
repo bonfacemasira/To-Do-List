@@ -2,6 +2,7 @@
 ## By Bonface Masira
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/104436879/204727490-029a4798-fe3e-4629-a4f7-5a41b2048adc.png)
+![Screenshot (264)](https://user-images.githubusercontent.com/104436879/204810954-c9d24512-8762-4503-bd0e-102b223e9539.png)
 
  ## Table of Content
  - [Description](#description)
