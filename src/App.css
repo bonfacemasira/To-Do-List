@@ -55,7 +55,7 @@
 
 .NewItem {
   width: 100%;
-  align-items:  space-between;
+  /* align-items:  space-between; */
   /* justify-content: space-between; */
 }
 
@@ -100,3 +100,13 @@ form > button {
 /* .backgroundImage {
   width: 100%;
 } */
+
+
+.ClockContainer{
+  color: white;
+  font-size: 5em;
+  padding-top: 5rem;
+  font-weight: bold;
+  width: 40%;
+  margin: auto;
+}
