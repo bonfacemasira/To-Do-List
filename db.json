@@ -9,6 +9,26 @@
       "name": "Wherereve we are ready",
       "category": "Morning",
       "id": 28
+    },
+    {
+      "name": "Cleaning",
+      "category": "Morning",
+      "id": 29
+    },
+    {
+      "name": "Watching word cup",
+      "category": "Evening",
+      "id": 30
+    },
+    {
+      "name": "Watching word cup game 2",
+      "category": "Evening",
+      "id": 31
+    },
+    {
+      "name": "Sleeping",
+      "category": "Evening",
+      "id": 32
     }
   ]
 }

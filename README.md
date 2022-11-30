@@ -1,10 +1,7 @@
 # To Do List
 ## By Bonface Masira
 ## Screenshots
- ![image](./assets/images/screenshot.JPG)
- ![image](./assets/images/screenshot_sort_desc.png)
- ![image](./assets/images/screenshot_dropdown.png)
- ![image](./assets/images/screenshot_search.JPG)
+![image](https://user-images.githubusercontent.com/104436879/204727490-029a4798-fe3e-4629-a4f7-5a41b2048adc.png)
 
  ## Table of Content
  - [Description](#description)
