@@ -1,6 +1,6 @@
 # To Do List
 ## By Bonface Masira
-## Screenshots
+## Screenshot
 ![image](https://user-images.githubusercontent.com/104436879/204727490-029a4798-fe3e-4629-a4f7-5a41b2048adc.png)
 
  ## Table of Content
@@ -15,14 +15,15 @@
 
  ## Description
 
- <p>The MovieHub Project will allow users to view ratings and comments on existing movies. It will also allow users to comment on movies besides rating them by liking on favorite movies.</p>
+ <p>The To-Do List Project is a web application implemented in React JS. This app will allow a user to create a list of tasks they will be working on on the particular day. The user can also edit and delete tasks at will.</p>
 
 ## Features
 As a user of the application, you will be able to :
-1. View movieas and shows on different pages
-2. Search movies
-3. Sort movies by rating descending
-4. Sort movies by release date descending
+1. Add a new TODO task
+2. Edit and Delete a task
+3. Use Live Clock to tell time
+4. Use Background Images obtained from Pixabay API
+5. Add the time of day the task will be carried out.
 
 ## Behaviour Driven Development|
 | Behaviour      | Input        | Output       |
@@ -44,13 +45,13 @@ As a user of the application, you will be able to :
  ****
 
 ### Live Link
-- Click this link to view the live application https://bonfacemasira.github.io/MovieHub/
+- Click this link to view the live application https://to-do-list-speedy.netlify.app/
 
 ### Technology  Used
-* HTML - which was used to develope the structure of the web application
-* CSS - which was used to style the web pages
-* JavaScript - which was used for adding functionality to the web page elements.
-* React JS- is the framework which was used to create the components.
+* HTML is used to develope the structure of the web application
+* CSS is used to style the web pages
+* JavaScript is used for adding functionality to the web page elements.
+* React JS is the framework used to create the components.
 
 ## Known Bugs
 * Sort by date is not working as expected
