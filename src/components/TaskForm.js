@@ -32,6 +32,8 @@ function TaskForm({ onAddTask }) {
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+        <label>
+          Time:
         <select
           name="category"
           value={category}
@@ -40,6 +42,7 @@ function TaskForm({ onAddTask }) {
           <option value="Morning">Morning</option>
           <option value="Evening">Evening</option>
         </select>
+        </label>
         <button type="submit" onClick={handleSubmit}>
           Add to List
         </button>

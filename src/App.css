@@ -7,6 +7,7 @@
   position: relative;
   text-align: center;
   height: 100vh;
+  overflow: hidden;
 }
 
 .App-header {
@@ -55,8 +56,8 @@
 
 .NewItem {
   width: 100%;
-  /* align-items:  space-between; */
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-around;
 }
 
 input {
