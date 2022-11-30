@@ -15,7 +15,7 @@
 
  ## Description
 
- <p>The To-Do List Project is a web application implemented in React JS. This app will allow a user to create a list of tasks they will be working on on the particular day. The user can also edit and delete tasks at will.</p>
+ <p>The To-Do List  is a web application implemented in React JS. This app allows a user to create a list of tasks they will be working on on the particular day. The user can also edit and delete tasks at will.</p>
 
 ## Features
 As a user of the application, you will be able to :
@@ -24,6 +24,7 @@ As a user of the application, you will be able to :
 3. Use Live Clock to tell time
 4. Use Background Images obtained from Pixabay API
 5. Add the time of day the task will be carried out.
+6. NoSQL database
 
 ## Behaviour Driven Development|
 | Behaviour      | Input        | Output       |
@@ -54,7 +55,7 @@ As a user of the application, you will be able to :
 * React JS is the framework used to create the components.
 
 ## Known Bugs
-* Sort by date is not working as expected
+* Changing background images on refresh is working progress
 
 ## Authors Info
 LinkedIn - [Bonface Masira](https://www.linkedin.com/in/bonface-masira-975447a4)
