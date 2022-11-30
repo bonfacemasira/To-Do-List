@@ -7,7 +7,7 @@
   position: relative;
   text-align: center;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .App-header {
@@ -104,10 +104,12 @@ form > button {
 
 
 .ClockContainer{
+  position: relative;
   color: white;
   font-size: 5em;
   padding-top: 5rem;
   font-weight: bold;
   width: 40%;
   margin: auto;
+  top: -100%;
 }

@@ -29,6 +29,21 @@
       "name": "Sleeping",
       "category": "Evening",
       "id": 32
+    },
+    {
+      "name": "Eating",
+      "category": "Morning",
+      "id": 33
+    },
+    {
+      "name": "Working",
+      "category": "Morning",
+      "id": 34
+    },
+    {
+      "name": "Here",
+      "category": "Evening",
+      "id": 35
     }
   ]
 }

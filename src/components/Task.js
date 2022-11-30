@@ -1,6 +1,12 @@
 import React from "react";
 
 function Task({ task, onUpdateTask, onDeleteTask }) {
+
+  // const taskData = {
+  //   name: name,
+  //   category: category,
+  // };
+
   function handleDeleteTask() {
     fetch(`http://localhost:3001/tasks/${task.id}`, {
       method: "DELETE",
@@ -10,17 +16,18 @@ function Task({ task, onUpdateTask, onDeleteTask }) {
   }
 
   function handleEditTask() {
-    // fetch(`http://localhost:3001/tasks/${task.id}`, {
-    //   method: "PATCH",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify({
-    //     isInCart: !task.isInCart,
-    //   }),
-    // })
-    //   .then((r) => r.json())
-    //   .then((updatedTask) => onUpdateTask(updatedTask));
+    fetch(`http://localhost:3001/tasks/${task.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: task.name,
+        category: task.category
+      }),
+    })
+      .then((r) => r.json())
+      .then((updatedTask) => onUpdateTask(updatedTask));
   }
 
   return (

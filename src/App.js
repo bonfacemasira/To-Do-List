@@ -8,13 +8,15 @@ import PullToRefresh from "pull-to-refresh-react";
 function App() {
 
   return (
+    <>
     <div className="App">
-      {/* <PullToRefresh/> */}
+      <PullToRefresh/>
       
       <Background />
       <LiveClock />
       <TaskList />
     </div>
+    </>
   );
 }
 
