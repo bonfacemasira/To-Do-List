@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from "react";
-import Task from "./Task"
+import Task from "./Task";
 import TaskForm from "./TaskForm";
+// import 'rsuite/dist/styles/rsuite-default.css';
+// import "rsuite/Button/styles/index.less";
+import { Toggle } from "rsuite";
 
 function TaskList() {
   const [tasks, setTasks] = useState([]);
+  const [currentView, setCurrentView] = useState(0);
 
   useEffect(() => {
     fetch("http://localhost:3001/tasks")
@@ -35,6 +39,12 @@ function TaskList() {
     <div className="TaskList">
       <h3>Today</h3>
       <TaskForm onAddTask={handleAddTask} />
+      <Toggle
+        onChange={(value) => {
+          setCurrentView(value);
+        }}
+      />
+      {currentView === true ? "List View" : "Card View"}
       <ul className="Tasks">
         {tasks.map((task) => (
           <Task

@@ -44,6 +44,16 @@
       "name": "Here",
       "category": "Evening",
       "id": 35
+    },
+    {
+      "name": "Eating",
+      "category": "Morning",
+      "id": 36
+    },
+    {
+      "name": "Digging",
+      "category": "Morning",
+      "id": 37
     }
   ]
 }
