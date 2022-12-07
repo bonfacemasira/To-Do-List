@@ -52,6 +52,7 @@ function TaskList() {
             task={task}
             onUpdateTask={handleUpdateTask}
             onDeleteTask={handleDeleteTask}
+            view = {currentView}
           />
         ))}
       </ul>

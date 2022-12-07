@@ -1,7 +1,6 @@
 import React from "react";
 
-function Task({ task, onUpdateTask, onDeleteTask }) {
-
+function Task({ view, task, onUpdateTask, onDeleteTask }) {
   // const taskData = {
   //   name: name,
   //   category: category,
@@ -23,7 +22,7 @@ function Task({ task, onUpdateTask, onDeleteTask }) {
       },
       body: JSON.stringify({
         name: task.name,
-        category: task.category
+        category: task.category,
       }),
     })
       .then((r) => r.json())
@@ -31,19 +30,24 @@ function Task({ task, onUpdateTask, onDeleteTask }) {
   }
 
   return (
-    <li className={task.isInCart ? "in-cart" : ""}>
-      <span>{task.name}</span>
-      <span className="category">{task.category}</span>
-      <button
-        className="formButton"
-        onClick={handleEditTask}
-      >
-        Edit
-      </button>
-      <button className="formButton" onClick={handleDeleteTask}>
-        Delete
-      </button>
-    </li>
+    <>
+      {view === true ? (
+        <li className={task.isInCart ? "in-cart" : ""}>
+          <span>{task.name}</span>
+          <span className="category">{task.category}</span>
+          <button className="formButton" onClick={handleEditTask}>
+            Edit
+          </button>
+          <button className="formButton" onClick={handleDeleteTask}>
+            Delete
+          </button>
+        </li>
+      ) : (
+        <div>
+          <div className="card">CARD</div>
+        </div>
+      )}
+    </>
   );
 }
 
